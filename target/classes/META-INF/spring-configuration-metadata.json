@@ -1,0 +1,77 @@
+{
+  "groups": [
+    {
+      "name": "cos.client",
+      "type": "com.jike.moba.config.CosClientConfig",
+      "sourceType": "com.jike.moba.config.CosClientConfig"
+    },
+    {
+      "name": "spring.redis",
+      "type": "com.jike.moba.config.RedissonConfig",
+      "sourceType": "com.jike.moba.config.RedissonConfig"
+    },
+    {
+      "name": "third.config",
+      "type": "com.jike.moba.config.ThirdPartyLoginConfig",
+      "sourceType": "com.jike.moba.config.ThirdPartyLoginConfig"
+    },
+    {
+      "name": "third.config.config",
+      "type": "com.jike.moba.config.ThirdPartyLoginConfig",
+      "sourceType": "com.jike.moba.config.ThirdPartyLoginConfig",
+      "sourceMethod": "getConfig()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cos.client.access-key",
+      "type": "java.lang.String",
+      "description": "accessKey",
+      "sourceType": "com.jike.moba.config.CosClientConfig"
+    },
+    {
+      "name": "cos.client.bucket",
+      "type": "java.lang.String",
+      "description": "桶名",
+      "sourceType": "com.jike.moba.config.CosClientConfig"
+    },
+    {
+      "name": "cos.client.region",
+      "type": "java.lang.String",
+      "description": "区域",
+      "sourceType": "com.jike.moba.config.CosClientConfig"
+    },
+    {
+      "name": "cos.client.secret-key",
+      "type": "java.lang.String",
+      "description": "secretKey",
+      "sourceType": "com.jike.moba.config.CosClientConfig"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "com.jike.moba.config.RedissonConfig"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.String",
+      "sourceType": "com.jike.moba.config.RedissonConfig"
+    },
+    {
+      "name": "third.config.app-id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.jike.moba.config.ThirdPartyLoginConfig"
+    },
+    {
+      "name": "third.config.app-key",
+      "type": "java.lang.String",
+      "sourceType": "com.jike.moba.config.ThirdPartyLoginConfig"
+    },
+    {
+      "name": "third.config.redirect-url",
+      "type": "java.lang.String",
+      "sourceType": "com.jike.moba.config.ThirdPartyLoginConfig"
+    }
+  ],
+  "hints": []
+}
